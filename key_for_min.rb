@@ -9,7 +9,7 @@ def key_for_min_value(name_hash)
      final_key = key
      lowest = value
     elsif name_hash.length == 0
-      return nil
+      final_key = nil
     end
   end
   final_key
